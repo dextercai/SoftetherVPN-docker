@@ -20,7 +20,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: softethervpn/vpnserver
+          images: dextercai/softether_vpn_server
           tags: |
             # branch event
             type=ref,event=branch
